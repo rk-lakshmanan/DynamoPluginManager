@@ -78,6 +78,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Utilities\WpfUtilities.cs" />
     <Compile Include="ViewModel\PluginManagerViewModel.cs" />
     <Compile Include="View\PluginManagerView.xaml.cs" />
     <Compile Include="View\PluginScriptEditor.xaml.cs" />
