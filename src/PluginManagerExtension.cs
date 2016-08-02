@@ -33,7 +33,6 @@ namespace Dynamo.PluginManager
         private PluginManagerViewModel pluginManagerViewModel;
         internal Menu dynamoMenu;
         private MenuItem pluginManagerMainMenuItem;
-        private Separator separator = new Separator();
         internal DynamoView DynamoView;
         internal WorkspaceView WorkspaceView;
         private IWorkspaceModel workspaceModel;
