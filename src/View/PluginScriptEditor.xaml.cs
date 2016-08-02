@@ -49,7 +49,7 @@ namespace PluginManager
 
             const string highlighting = "ICSharpCode.PythonBinding.Resources.Python.xshd";
             var elem = GetType().Assembly.GetManifestResourceStream(
-                        "PluginManager.Resources." + highlighting);
+                        "DynamoPluginManager.Resources." + highlighting);
 
             var ele = this.GetType().Assembly.GetManifestResourceNames();
             //var el = Assembly.GetExecutingAssembly().GetManifestResourceNames();
