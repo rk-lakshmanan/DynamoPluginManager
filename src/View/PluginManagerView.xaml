@@ -242,7 +242,11 @@
                     Orientation="Horizontal"
                     Margin="10,0,0,0"
                     HorizontalAlignment="Left">
-            <Button Margin="0,0,10,0"
+            <Button Margin="10,0,0,0" 
+                        Width="150"
+                            Style="{StaticResource STextButton}"
+                            Content="Create New Script"></Button>
+            <Button Margin="10,0,0,0"
                     Style="{StaticResource STextButton}"
                     Command="{Binding AddPluginCommand}"
                     Content="Add" RenderTransformOrigin="-13.283,0.5" Width="118">
