@@ -36,7 +36,7 @@ namespace Dynamo.PluginManager.View
         }
         private void OnEditScriptClicked(object sender, RoutedEventArgs e)
         {
-            PluginScriptEditor pluginScriptEditor = new PluginScriptEditor(ViewModel.PluginModelList.ElementAt(ViewModel.SelectedIndex).FilePath,pluginManagerContext);
+            PluginScriptEditor pluginScriptEditor = new PluginScriptEditor(ViewModel,pluginManagerContext);
             pluginScriptEditor.Initialize();
             this.WindowState = System.Windows.WindowState.Minimized;
             pluginScriptEditor.Show();
